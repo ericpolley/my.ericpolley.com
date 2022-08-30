@@ -1,0 +1,158 @@
+body {
+    text-align: center;
+    background-image: url('images/circuits2.jpg');
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 40, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+
+    color: lawngreen;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+}
+
+.small {
+    font-size: 75%;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 160%;
+    margin: 0;
+}
+
+.hide {
+    display: none;
+}
+
+#gameBox {
+    margin: 3%, auto;
+    padding: 3% 3% 10% 3%;
+    border-radius: 10%;
+    border: 12px solid rgba(18, 18, 18, 0.5);
+    background-image: url('images/circuits.jpg');
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 29, 0, 0.2);
+    background-size: 120%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    max-width: 90vw;
+    height: 55vh;
+
+    align-items: center;
+}
+#gameTv {
+    margin-top: 10%;
+    background-color: black;
+    border: 5px solid rgba(18, 18, 18, 1);
+width: 90%;
+max-width: 400px;
+height: 100%;
+min-height: 70%;
+
+    border-radius: 10%;
+}
+#gameText {
+    
+    background-color: black;
+    border: 5px solid rgba(18, 18, 18, 1);
+    color: lawngreen;
+    font-size: 120%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    min-height: 70px;
+    border-radius: 20% 20% 35% 35%;
+
+}
+#butBox {
+    color: lawngreen;
+    margin-top: 2%;
+    max-width: 400px;
+    padding: 5px;
+    width: 65vw;
+
+    min-height: fit-content;
+
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    justify-content: center;
+
+}
+.butColor {
+    padding: 5% 0;
+    height: auto;
+    background-color: black;
+    color: lawngreen;
+    font-size: 120%;
+    border: 2px solid limegreen;
+    width: 50%;
+    animation: buttonAnimation 1.5s linear infinite alternate;
+}
+
+@keyframes buttonAnimation {
+    0% {transform: scale(100%);}
+    80% {transform: scale(100%);}
+    85% {transform: scale(98%);}
+    92% {transform: scale(103%);}
+    100% {transform: scale(100%);}
+}
+
+.butColor:hover {
+    transform: scale(111%);
+    background-color: rgb(4, 4, 4);
+    color: lawngreen;
+    font-size: 125%;
+    border: 3px solid lawngreen;
+}
+
+.butColor:active {
+    background-color: lawngreen;
+    color: black;
+    border: 2px solid black;
+}
+
+
+
+.face01 {
+    background-image: url('images/mfc_face01.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.face02 {
+    background-image: url('images/mfc_face02.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.face03 {
+    background-image: url('images/mfc_face03.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.face04 {
+    background-image: url('images/mfc_face04.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
